@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "milestone-2-486422",
+  "private_key_id": "e9-- nah, thats not it--00",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nYeah, I dont think so\n-----END PRIVATE KEY-----\n",
+  "client_email": "199886955377-compute@developer.gserviceaccount.com",
+  "client_id": "10-nope-383",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/199886955377-compute%40developer.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

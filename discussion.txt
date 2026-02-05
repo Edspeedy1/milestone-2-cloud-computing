@@ -1,0 +1,29 @@
+What's the different of Source and Sink connectors?
+
+I think this is supposed to say "..the difference between Source.."
+and the difference would be what is being done with the data (duh)
+but in other words, sources are the source of the data and sinks
+collect the data, gemini likes to explain it as the in-box and 
+out-box of a data pipeline and I like that analogy. The source
+connector in the design section is collecting data from my python
+script when it pushes data to the pub sub, and the sink would be\
+my other python script that collects the data, or the mysql 
+database that is collecting these pub sub messages
+
+
+
+What's the applications of the connectors?
+
+connectors (like their names imply) let you connect different apps
+together and feed data from one thing to another. Gemini is telling 
+me that its like the glue that holds apps together, but I don't 
+like this analogy as much as the other one. I think connectors are
+more like the roads that data can be traveling on and they let us
+easily connect my python script into a database and then connect to
+another script and send data every which way, without worrying about
+the underlying systems at play (like an abstraction layer). The 
+application of connectors is flow in this design pattern, how data 
+gets from one place to another:
+- sources making data, detecting changes, messages, etc.
+- hubs buffering that data and storing it for later (databases)
+- sinks getting the data that they need and doing things with it
